@@ -1,0 +1,22 @@
+{
+    "name": "thecodeisbae/utilities",
+    "type": "library",
+    "version": "v1.0.0",
+    "description": "Utilities class for ",
+    "keywords": ["utils","utilities"],
+    "homepage": "https://github.com/thecodeisbae/utilities",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marilyn Prince",
+            "email": "thecodeisbae@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.5"
+    },
+    "autoload": {
+        "psr-4": { "thecodeisbae\\": ["src/"] }
+    }
+}
