@@ -17,6 +17,13 @@
         "phpmailer/phpmailer": "^6.5"
     },
     "autoload": {
-        "psr-4": { "thecodeisbae\\": ["src/"] }
+         "psr-0": {
+            "thecodeisbae\\FileManager\\": "src/Files/",
+            "thecodeisbae\\LayoutManager\\": "src/LayoutManager/",
+            "thecodeisbae\\Routing\\": "src/Route/",
+            "thecodeisbae\\Accumulator\\": "src/Utilities/",
+            "thecodeisbae\\Validator\\": "src/Utilitites/",
+            "thecodeisbae\\Viewing\\": "src/Viewing/"
+        }
     }
 }
