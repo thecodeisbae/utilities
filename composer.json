@@ -18,12 +18,12 @@
     },
     "autoload": {
          "psr-4": {
-            "thecodeisbae\\FileManager\\": "src/Files/",
-            "thecodeisbae\\LayoutManager\\": "src/LayoutManager/",
-            "thecodeisbae\\Routing\\": "src/Route/",
-            "thecodeisbae\\Accumulator\\": "src/Utilities/",
-            "thecodeisbae\\Validator\\": "src/Utilitites/",
-            "thecodeisbae\\Viewing\\": "src/Viewing/"
+            "thecodeisbae\\FileManager\\": "thecodeisbae/src/Files/",
+            "thecodeisbae\\LayoutManager\\": "thecodeisbae/src/LayoutManager/",
+            "thecodeisbae\\Routing\\": "thecodeisbae/src/Route/",
+            "thecodeisbae\\Accumulator\\": "thecodeisbae/src/Utilities/",
+            "thecodeisbae\\Validator\\": "thecodeisbae/src/Utilitites/",
+            "thecodeisbae\\Viewing\\": "thecodeisbae/src/Viewing/"
         }
     }
 }
