@@ -23,7 +23,8 @@
             "thecodeisbae\\Routing\\": "thecodeisbae/src/Routing/",
             "thecodeisbae\\Accumulator\\": "thecodeisbae/src/Utilities/",
             "thecodeisbae\\Validator\\": "thecodeisbae/src/Utilities/",
-            "thecodeisbae\\Viewing\\": "thecodeisbae/src/Viewing/"
+            "thecodeisbae\\Viewing\\": "thecodeisbae/src/Viewing/",
+            "thecodeisbae\\Mailer\\": "thecodeisbae/src/Mailer/"
         }
     }
 }
