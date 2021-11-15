@@ -2,7 +2,7 @@
     "name": "thecodeisbae/utilities",
     "type": "library",
     "version": "v1.0.0",
-    "description": "Utilities class for ",
+    "description": "Utilities class for thecodeisbae framework",
     "keywords": ["utils","utilities"],
     "homepage": "https://github.com/thecodeisbae/utilities",
     "license": "MIT",
@@ -20,9 +20,9 @@
          "psr-4": {
             "thecodeisbae\\FileManager\\": "thecodeisbae/src/Files/",
             "thecodeisbae\\LayoutManager\\": "thecodeisbae/src/LayoutManager/",
-            "thecodeisbae\\Routing\\": "thecodeisbae/src/Route/",
+            "thecodeisbae\\Routing\\": "thecodeisbae/src/Routing/",
             "thecodeisbae\\Accumulator\\": "thecodeisbae/src/Utilities/",
-            "thecodeisbae\\Validator\\": "thecodeisbae/src/Utilitites/",
+            "thecodeisbae\\Validator\\": "thecodeisbae/src/Utilities/",
             "thecodeisbae\\Viewing\\": "thecodeisbae/src/Viewing/"
         }
     }
