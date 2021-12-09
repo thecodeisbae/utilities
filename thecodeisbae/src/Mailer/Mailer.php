@@ -8,7 +8,6 @@ use PHPMailer\PHPMailer\Exception;
 
 require _VENDOR_PATH.'autoload.php';
 
-
 class Mailer
 {
     static function send($to,$subject,$body,$attachmentPath,$attachment,$cc='')
@@ -29,6 +28,21 @@ class Mailer
             //Recipients
             $mail->setFrom($params->email->SMTPUser, $params->email->Service);
             $mail->addAddress($to);   
+
+            if($cc)
+            {
+                switch(gettype($cc))
+                {
+                    case 'string':
+                        $mail->addCC($cc);
+                        break;
+                    case 'array':
+                        foreach ($cc as $copy) {
+                            $mail->addCC($copy);
+                        }
+                        break;
+                }
+            }
 
             if($attachmentPath && $attachment)
             //Add attachments
